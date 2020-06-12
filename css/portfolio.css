@@ -1,0 +1,144 @@
+/* Палитра */
+/* Цвет акцентра #2196F3 */
+/* Белый цвет текста #FFFFFF */
+/* Вспомогательный цвет шрифта #212121 */
+/* основной цвет шрифта #757575 */
+/* Основной цвет фона  в портфолио #E5E5E5 */
+/* Основной цвет фона на титуле #F5F4FA */
+
+/* Шаблоны для использования */
+:root {
+  --accent-collor: #2196f3;
+  --text-color: #757575;
+  --title-color: #212121;
+  --text-color-w: #ffffff;
+  --background-grey: #e5e5e5;
+  --background-white: #f5f4fa;
+}
+body {
+  background-color: var(--background-grey);
+  color: var(--text-color);
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+}
+
+/* Основной класс для ссылки */
+.link {
+  color: #212121;
+  text-decoration: none;
+}
+.link:hover,
+.link:focus {
+  color: var(--accent-collor);
+}
+/* шаблон-класс для списка, убирает точки */
+.list {
+  list-style: none;
+}
+
+/* header */
+.header {
+  background-color: var(--background-white);
+}
+.logo {
+  /* color: #212121; 
+  Font Family: Raleway; 
+  font-weight: 700; */
+  font-size: 26px;
+  /* line-height: 1.2; 
+  Letter-Spacing: 3%; */
+  text-decoration: none;
+}
+/* .logo-web {
+    color: var(--accent-collor);
+} */
+.link.header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.contacts {
+  color: var(--text-color);
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+.contacts:hover,
+.contacts:focus {
+  color: var(--accent-collor);
+}
+/* Главный контент страницы main */
+.main-title {
+  display: none;
+}
+/* Шаблон кнопки */
+.button {
+  background-color: var(--background-white);
+  color: #212121;
+  font-size: 16px;
+  line-height: 1.63;
+  font-weight: 500;
+  text-align: center;
+}
+.button:hover,
+.button:focus {
+  background-color: var(--accent-collor);
+  color: #ffffff;
+}
+.examples {
+  text-decoration: none;
+  color: var(--text-color-w);
+  font-size: 18px;
+  line-height: 1.56;
+  /* background-color: var(--background-white); */
+}
+.examples-title {
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.examples-filter {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.88;
+}
+/* Footer */
+.footer {
+  background-color: #2f303a;
+}
+.adress {
+  color: var(--text-color-w);
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+}
+.footer-title {
+  color: var(--text-color-w);
+  font-size: 14px;
+  line-height: 1.14;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.produce {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
+}
+.contacts-in-footer {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.71;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  font-style: normal;
+}
