@@ -27,9 +27,19 @@ body {
 
 /* шаблон-класс для списка, убирает точки */
 .list {
+  padding: 0px;
+  margin: 0px;
   list-style: none;
 }
 /* Header */
+.container {
+  padding: 0px;
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: greenyellow;
+  border: 2px solid black;
+}
 /* Основной класс для ссылки */
 .header {
   background-color: var(--background-white);
@@ -46,12 +56,22 @@ body {
   background-color: var(--background-white);
 }
 .logo {
-  /* color: #212121; 
-  Font Family: Raleway; 
-  font-weight: 700; */
-  font-size: 26px;
-  /* line-height: 1.2;*/
+  width: 153px;
+  height: 31px;
+  margin-top: 24px;
+  margin-bottom: 25px;
+  margin-left: 215px;
+  margin-right: 85px;
+  display: inline-block;
   text-decoration: none;
+  border: 2px solid black;
+}
+.logo-img {
+  border: 1px solid tomato;
+  display: inline-block;
+}
+.link-nav {
+  /* border: 1px solid black; */
 }
 .link.header {
   font-weight: 500;
@@ -71,8 +91,20 @@ body {
 .contacts:focus {
   color: var(--accent-collor);
 }
-/* MAIN */
+/* MAIN
 /* hero */
+.hero-cont {
+  display: inline-block;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  border: 1px solid olive;
+}
+.main-hero {
+  padding: 0px;
+  margin-top: 0px;
+  border: 2px solid blue;
+}
 .main-title {
   color: var(--text-color-w);
   font-weight: 900;
@@ -81,6 +113,12 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin-bottom: 30px;
+  margin-top: 0px;
+  /* margin-right: 0px;
+  margin-left: 0px; */
+  border: 1px solid black;
+  display: inline-block;
 }
 .link.main {
   color: var(--text-color-w);
@@ -89,6 +127,9 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+  padding: 10px 32px;
+  display: inline-block;
+  min-width: 200px;
 }
 .link.main:hover,
 .link.main:focus {
@@ -96,6 +137,12 @@ body {
   background-color: var(--text-color-w);
 }
 /* секция с приемуществами */
+.list.container {
+  padding-top: 94px;
+}
+.all-text {
+  margin: 0px;
+}
 .hide-title {
   display: none;
 }
@@ -104,14 +151,21 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  /* display: inline-block; */
 }
 /* чем мы занимаемся */
+.services-container {
+  padding-top: 94px;
+}
 .section-title {
   color: var(--title-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+  margin: 0px 0px 50px 0px;
 }
 .services {
   color: var(--text-color-w);
@@ -124,6 +178,9 @@ body {
 }
 
 /* cекция Наша команда */
+.team-container {
+  padding-top: 94px;
+}
 .team {
   background-color: var(--background-white);
 }
@@ -133,11 +190,15 @@ body {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 .team-position {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  display: inline-block;
+  margin: 0px 0px 16px 0px;
 }
 /* Клиенты */
 .customers {
