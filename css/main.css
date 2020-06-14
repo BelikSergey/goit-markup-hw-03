@@ -340,6 +340,7 @@ body {
 
 .footer {
   background-color: #2f303a;
+  padding-bottom: 21px;
 }
 
 .adress {
@@ -394,8 +395,8 @@ body {
 
 .produce {
   display: block;
-  margin-bottom: 21px;
-  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-top: 12px;
 
   color: rgba(255, 255, 255, 0.4);
   font-size: 12px;
