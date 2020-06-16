@@ -185,8 +185,8 @@ body {
 }
 
 .examples {
-  display: block;
-  width: 370px;
+  display: inline-block;
+  /* width: 370px; */
 
   text-decoration: none;
   color: var(--text-color-w);
@@ -196,8 +196,9 @@ body {
 }
 
 .item-examples {
-  width: 370px;
-  height: 404px;
+  width: calc:((100% - 60px) / 3);
+  /* width: 370px; */
+  /* height: 404px; */
   outline: 1px solid #eeeeee;
   margin-right: 30px;
 }
