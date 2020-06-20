@@ -37,6 +37,15 @@ body {
   border: 1px solid var(--accent-collor);
 }
 
+/* Шаблон для Изображений  */
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+
 /* шаблон-класс для списка,
  убирает точки обнуляет падинг и марджин */
 
@@ -185,7 +194,7 @@ body {
 }
 
 .examples {
-  display: inline-block;
+  /* display: block; */
   /* width: 370px; */
 
   text-decoration: none;
@@ -199,7 +208,7 @@ body {
   width: calc:((100% - 60px) / 3);
   /* width: 370px; */
   /* height: 404px; */
-  outline: 1px solid #eeeeee;
+  /* outline: 1px solid #eeeeee; */
   margin-right: 30px;
 }
 
@@ -209,7 +218,7 @@ body {
 
 .item-examples:nth-child(n + 4) {
   margin-top: 30px;
-  ju
+
 }
 
 /* .list-examples
@@ -220,10 +229,19 @@ body {
   margin-top: 30px;
 } */
 
+.card-content {
+  padding: 20px 24px;
+  border-bottom: 1px solid #EEEEEE;
+  border-right: 1px solid #EEEEEE;
+  border-left: 1px solid #EEEEEE;
+  /* background-color: blue; */
+}
+
+
 .examples-title {
   display: block;
-  margin-top: 20px;
-  margin-bottom: 0px;
+  
+   margin: 0px;
 
   color: var(--title-color);
   font-weight: 700;
@@ -255,20 +273,21 @@ body {
 .logo-footer {
   display: inline-block;
   margin-top: 45px;
-  margin-bottom: 8px;
+  margin-bottom: 0px;
 }
 
 .footer {
   background-color: #2f303a;
-  padding-bottom: 21px;
+  padding-bottom: 60px;
 }
 
-.adress {
+.address {
   display: block;
   color: var(--text-color-w);
   font-size: 14px;
   line-height: 1.71;
   font-style: normal;
+  margin-top: 20px  ;
 }
 
 .contacts-in-footer {
@@ -313,13 +332,3 @@ body {
   /* text-align: center; */
 }
 
-.produce {
-  display: block;
-  margin-bottom: 0px;
-  margin-top: 12px;
-
-  color: rgba(255, 255, 255, 0.4);
-  font-size: 12px;
-  line-height: 2;
-  text-align: center;
-}

@@ -165,6 +165,8 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .link.main:hover,
@@ -250,8 +252,8 @@ body {
   padding: 27px;
 
   color: var(--text-color-w);
-  /* background-color: tomato; */
-  /* добавил задний фон, а то плохо видно */
+  background: rgba(47, 48, 58, 0.8);
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -262,14 +264,19 @@ body {
 /* cекция Наша команда */
 
 .team-list {
-  width: 270px;
-  padding-bottom: 36px;
+  /* width: 270px; */
+  /* padding-bottom: 36px; */
   display: block;
-
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 1px 3px rgba(0, 0, 0, 0.12);
   background-color: var(--text-color-w);
+}
+
+.info-card-team {
+  /* background-color: blue; */
+  padding-bottom: 36px;
+  padding-top: 30px;
 }
 
 .container .team-list + .team-list {
@@ -283,7 +290,7 @@ body {
 }
 
 .team-img {
-  display: inline-block;
+  display: block;
 }
 
 .team-title {
@@ -292,7 +299,7 @@ body {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 0px;
   margin-bottom: 10px;
 }
 
@@ -335,16 +342,18 @@ body {
 .logo-footer {
   display: inline-block;
   margin-top: 45px;
-  margin-bottom: 8px;
+  margin-bottom: 0px;
 }
 
 .footer {
   background-color: #2f303a;
-  padding-bottom: 21px;
+  padding-bottom: 60px;
 }
 
 .adress {
   display: block;
+  margin-top: 20px;
+
   color: var(--text-color-w);
   font-size: 14px;
   line-height: 1.71;
@@ -386,20 +395,10 @@ body {
 .footer-title {
   margin-bottom: 20px;
   margin-top: 0px;
+
   color: var(--text-color-w);
   font-size: 14px;
   line-height: 1.14;
   font-weight: 700;
   /* text-align: center; */
-}
-
-.produce {
-  display: block;
-  margin-bottom: 0px;
-  margin-top: 12px;
-
-  color: rgba(255, 255, 255, 0.4);
-  font-size: 12px;
-  line-height: 2;
-  text-align: center;
 }
